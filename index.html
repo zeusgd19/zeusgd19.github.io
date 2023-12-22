@@ -31,6 +31,7 @@
               <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Sobre mi</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experiencia</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contacto</a></li>
               </ul>
@@ -257,19 +258,41 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
-                    <form
-                    action="https://formspree.io/f/xpzvayyw"
-                    method="POST">
-                    <label>
-                      Tu Email:
-                    <input type="email" name="email">
-                    </label>
-                    <label>
-                    Tu mensaje:
-                    <textarea name="message"></textarea>
-                    </label>
-  <!-- your other form fields go here -->
-                    <button type="submit">Send</button>
+                    <form action="https://formspree.io/f/xpzvayyw" method="POST">
+                      <div class="p pb-3"><strong>Sientete libre de contactarme </strong></div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                      </div>
                     </form>
                   </div>
                 </div>
