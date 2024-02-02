@@ -1,0 +1,102 @@
+nav{
+    background-color: aliceblue;
+}
+body{
+    background-image: url(multimedia/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+footer{
+    background-color: lightgreen;
+}
+h1{
+    background-color: burlywood;
+}
+#preparacion{
+    background-color: mediumorchid;
+}
+ul{
+    display: flex;
+    margin-left: 30%;
+}
+ul li{
+    margin-right: 60px;
+}
+.s1{
+    background-color: lightblue;
+}
+.s2{
+    background-color:beige;
+}
+#horario{
+    background-color: lightseagreen;
+}
+.s3{
+    background-color: lime;
+    text-align: center;
+}
+table{
+    display: inline-block;
+    align-self: center;
+
+}
+td{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+th{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.a2{
+   font-weight: bold;
+   text-transform: uppercase;
+}
+dd{
+    position: relative;
+    font-weight: bold;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 13cm;
+    object-fit: fill;
+}
+audio{
+    position: inherit;
+    bottom: 0cm;
+    left: 30cm
+}
+.dt1{
+    background-color: lightpink;
+}
+.dt2{
+    background-color: lightsalmon;
+}
+.dt3{
+    background-color: lightgreen;
+}
+thead{
+    background-color: lightyellow;
+}
+.td1,.td2{
+    background-color: red;
+    color: aliceblue;
+}
+td{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    color: limegreen;
+}
+form{
+    font-weight: bold;
+    color: limegreen;
+    text-align: center;
+    font-size: x-large;
+}
