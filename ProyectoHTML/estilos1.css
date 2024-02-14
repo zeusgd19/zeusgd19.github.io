@@ -17,12 +17,22 @@ h1{
 #preparacion{
     background-color: mediumorchid;
 }
-ul{
+nav menu{
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    margin-left: 30%;
 }
-ul li{
-    margin-right: 60px;
+nav menu li{
+    margin-right: 20px;
+    font-size: xx-large;
+}
+a:hover{
+    color: blueviolet;
+}
+a:visited{
+    color: yellowgreen
 }
 .s1{
     background-color: lightblue;
@@ -60,10 +70,14 @@ dd{
     position: relative;
     font-weight: bold;
 }
+img{
+    width: 15%;
+}
 video{
     position: absolute;
     top: 0;
-    left: 13cm;
+    width: 20%;
+    left: 15cm;
     object-fit: fill;
 }
 audio{
@@ -89,6 +103,12 @@ thead{
 }
 td{
     text-align: center;
+}
+.col1{
+    background-color: greenyellow;
+}
+.col2{
+    background-color: lightblue;
 }
 label{
     font-weight: bold;

@@ -1,0 +1,162 @@
+body{
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    margin-left: 12%
+}
+body.preparacion{
+   margin-left: 0; 
+   text-align: center;
+}
+body.formulario{
+    margin-left: 0;
+}
+header{
+    background-color: rgba(99,182,248);
+    text-align: center;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: rgb(99, 181, 248);
+    position: fixed;
+    width: 11%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+nav menu{
+    list-style-type: none;
+}
+nav menu li{
+    justify-self: left;
+    margin-bottom: 10px;
+}
+a:hover{
+    color: green;
+}
+a:visited{
+    color: yellow;
+}
+.dt1{
+    background-color: lightpink;
+    margin-right: 90px;
+}
+.dt2{
+    background-color: lightcoral;
+    margin-right: 90px;
+}
+.dt3{
+    background-color: lightgreen;
+    margin-right: 90px;
+}
+section{
+    padding: 10px;
+}
+.s1{
+    background-color: crimson;
+    text-align: center;
+    font-weight:bolder
+}
+.s2{
+    display: flex;
+}
+.img1{
+    float: left;
+}
+.a1 h3{
+    background-color:burlywood;
+}
+.a2 h3{
+    background-color: chartreuse;
+}
+.a1,.a2{
+    flex: 1;
+    margin-right: 30px;
+    margin-top: 80px;
+    margin-left: -120px;
+}
+.a2 a:hover{
+    color: coral;
+}
+.a2 a:visited{
+    color: green;
+}
+table{
+    position: relative;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+caption{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.td1,.td2{
+    background-color: red;
+    color: white;
+}
+.col1{
+    background-color: lime;
+}
+.col2{
+    background-color: lightblue;
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+}
+
+.p1{
+    display: inline
+}
+
+form{
+    background-color: rgb(145, 214, 7);
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 8px;
+}
+form p{
+    font-weight: bold;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+label{
+    display: block;
+    margin-left: 10px;
+}
+input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+input[type="text"]:focus,input[type="email"]:focus{
+    width: 97%;
+}
+input[type="reset"],input[type="submit"]{
+    background-color: burlywood;
+    width: 97%;
+}
+input[type="reset"]:hover,input[type="submit"]:hover{
+    background-color:coral
+}
+select{
+    width: 97%;
+    margin-left: 10px;
+}
+textarea{
+    width: 97%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
