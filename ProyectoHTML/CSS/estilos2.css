@@ -65,6 +65,9 @@ section{
 .img1{
     float: left;
 }
+video{
+    width: 65%;
+}
 .a1 h3{
     background-color:burlywood;
 }
