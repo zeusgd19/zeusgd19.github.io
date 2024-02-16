@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>Galeria de arte</title>
+        <title>Galeria de arte<img src="https://zeusgd19.github.io/ProyectoHTML/multimedia/Nautopng.png" alt="Naruto"></title>
         <link>https://zeusgd19.github.io/ProyectoHTML/index.html</link>
         <description>Pagina que muestra los diujos que he estado haciendo</description>
         <language>es-es</language>
