@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>FORMULARIO</title>
+        <link rel="stylesheet" type="text/css" href="CSS/estilos2.css">
+    </head>
+    <body class="formulario">
+    <header>
+        <h1>BIENVENIDO A MI FORMULARIO</h1>
+    </header>
+        <form name="Formulario de Propuestas">
+            <p>Formulario para propuestas</p>
+            <label class="nombre">Nombre: </label>
+            <input name="Usuario" type="text" placeholder="Inserte su nombre" maxlength="10" required>
+            <br>
+            <label>Email: </label>
+            <input name="Email" type="email" placeholder="Inserte correo">
+            <br>
+            <label>Inserte imagen: </label>
+            <input type="file" required>
+            <br>
+            <label>Selecciona lo que quieres que realice: </label>
+            <select name="Opciones del dibujo">
+                <option value="Color">Completo</option>
+                <option value="Boceto">Solo Boceto</option>
+            </select>
+            <br>
+            <label>Describe lo que quires que haga: </label><br>
+            <textarea name="Descripcion" cols="30" rows="10">Describa aquí lo que desee</textarea>
+            <br>
+            <input type="reset" value="Reiniciar">
+            <input type="submit" value="Enviar">
+        </form>
+
+        <footer>
+            <p><em>Volver a la página principal </em><a href="index.html">aquí</a></p>
+        </footer>
+    </body>
+</html>

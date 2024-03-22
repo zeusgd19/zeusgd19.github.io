@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Galeria de arte</title>
+        <link>https://zeusgd19.github.io/ProyectoHTML/index.html</link>
+        <description>Pagina que muestra los diujos que he estado haciendo</description>
+        <language>es-es</language>
+        <item>
+            <title>Dbujo Terminados</title>
+            <link>https://zeusgd19.github.io/ProyectoHTML/index.html#dibujosT</link>
+            <description>
+            <![CDATA[ Dibujos terminados hace tiempo <img src="https://zeusgd19.github.io/ProyectoHTML/multimedia/Nautopng.png" alt="Naruto"> ]]>
+            </description>
+        </item>
+        <item>
+            <title>Dibujo en Preparacion</title>
+            <link>https://zeusgd19.github.io/ProyectoHTML/preparacion.html</link>
+            <description>Dibujos que estan en prerparación y aun queda algo por terminar</description>
+        </item>
+    </channel>
+</rss>
