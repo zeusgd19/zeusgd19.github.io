@@ -230,4 +230,10 @@ textarea{
     video{
         width: 100%;
     }
+
+    @media (max-width: 430px){
+        nav{
+            font-size: xx-large;
+        }
+    }
 }
